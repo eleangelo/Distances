@@ -167,16 +167,57 @@
             <div class="post">
                 <div class="post-header">
                     <div class="user">
-                        <div class="user-avatar"></div>
+                        <img src="images/avatar.jpg" alt="avatar" class="user-avatar">
                         <div class="post-info">
-                            <h4 class="post-author"></h4>
-                            <span class="post-time"></span>
+                            <a href="#" class="post-author">Mateusz Wierzbicki</a>
+                            <span class="post-time">3 hrs</span>
+                            <div class="post-setting">
+                                <svg class="icon-setting" width="14" height="14" >
+                                    <use href="images/icons.svg#setting"></use>
+                                    </svg>
+                            </div>
                         </div>
                     </div>
+                    <button class="post-button">
+                        <svg class="header-icon" width="24" height="24" >
+                            <use href="images/icons.svg#ellipsis"></use>
+                            </svg> 
+                    </button>
                 </div><!-- /.post-header -->
-                <div class="post-content"></div><!-- /.post-content -->
-                <div class="likes"></div><!-- /.likes -->
-                <div class="post-footer"></div><!-- /.post-footer -->
+                <div class="post-content">
+                    <p class="post-text">
+                        Did you know that all of this was made using only components and styles from Ant Desing System for Figma? 
+                    </p>
+                    <p class="post-text">Learn more: <a href="https://antforfigma.com">https://antforfigma.com</a> </p>
+                    <img src="images/post-img.jpg" alt="" class="post-img">
+                </div><!-- /.post-content -->
+                <div class="like">
+                    <svg class="like-icon" width="16" height="16" >
+                        <use href="images/icons.svg#like"></use>
+                        <span class="like-counter">23</span>
+                        </svg> 
+                </div><!-- /.likes -->
+                <div class="post-footer">
+                    <button class="post-button">
+                        <svg class="footer-icon" width="24" height="24" >
+                            <use href="images/icons.svg#like-footer"></use>
+                        </svg> 
+                        <span class="post-button-text">Like</span>
+                    </button>
+                    <button class="post-button">
+                        <svg class="footer-icon"  width="24" height="24" >
+                            <use xlink:href="images/icons.svg#message"></use>
+                            </svg>
+                        <span class="post-button-text">Comment</span>
+                    </button>
+                    <button class="post-button">
+                        <svg class="footer-icon"  width="24" height="24" >
+                            <use xlink:href="images/icons.svg#share"></use>
+                            </svg>
+                        <span class="post-button-text">Share</span>
+                    </button>
+                    
+                </div><!-- /.post-footer -->
             </div><!-- /.post -->
         </div><!-- /.main-feed -->
     </div><!-- /.container -->
